@@ -70,7 +70,7 @@ export default function Gallery({ images }: GalleryProps) {
             className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4"
             onClick={() => setSelected(null)}
           >
-            <div className="relative max-w-4xl w-full" onClick={e => e.stopPropagation()}>
+            <div className="relative max-w-4xl w-full" onClick={(e: React.MouseEvent) => e.stopPropagation()}>
               <img
                 src={images[selected].url}
                 alt={images[selected].title}

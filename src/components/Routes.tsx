@@ -110,8 +110,8 @@ export default function Routes() {
 
                 {/* Highlights */}
                 <ul className="space-y-2 mb-5">
-                  {route.highlights.map((h, j) => (
-                    <li key={j} className="flex items-start gap-2">
+                  {route.highlights.map((h, idx) => (
+                    <li key={idx} className="flex items-start gap-2">
                       <span className="text-[var(--rust)] mt-1 shrink-0">·</span>
                       <span className="font-golos text-xs text-[var(--text-muted)]">{h}</span>
                     </li>
