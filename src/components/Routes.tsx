@@ -82,7 +82,7 @@ export default function Routes() {
                 {/* Icon + name */}
                 <div className="flex items-start gap-3 mb-4">
                   <div className="w-10 h-10 border border-[var(--rust)]/30 flex items-center justify-center shrink-0 group-hover:border-[var(--rust)]/60 transition-colors">
-                    <Icon name={route.icon as any} size={18} className="text-[var(--rust)]" />
+                    <Icon name={route.icon} fallback="MapPin" size={18} className="text-[var(--rust)]" />
                   </div>
                   <h3 className="font-oswald text-xl font-500 text-[var(--text-primary)] leading-tight">{route.name}</h3>
                 </div>
