@@ -6,7 +6,7 @@ import RoutesSection from '@/components/Routes';
 import Reviews from '@/components/Reviews';
 import Footer from '@/components/Footer';
 
-const HERO_BG = 'https://cdn.poehali.dev/projects/42972322-7ce8-4f1e-a343-7dc030e9e759/files/2a5824ee-cfbb-4a58-9073-78182c121b7d.jpg';
+const HERO_BG = 'https://cdn.poehali.dev/files/8befc9a3-95ab-48d9-a5f1-80d2eb033206.jpg';
 
 const galleryImages = [
   {
