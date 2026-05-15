@@ -65,8 +65,8 @@ export default function Hero({ bgImage }: HeroProps) {
         {/* Stats */}
         <div className="animate-fade-up opacity-0 delay-500 mt-16 grid grid-cols-3 gap-6 max-w-sm mx-auto">
           {[
+            { num: '1024', label: 'Объектов' },
             { num: '12', label: 'Фортов' },
-            { num: '20+', label: 'Объектов' },
             { num: '200+', label: 'Историй' },
           ].map((s) => (
             <div key={s.label} className="text-center">
