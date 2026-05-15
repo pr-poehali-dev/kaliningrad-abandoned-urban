@@ -212,45 +212,6 @@ body::before {
   animation: pulse-rust 2s ease-in-out infinite;
 }
 
-/* Leaflet dark theme */
-.leaflet-container {
-  background: #1a1710 !important;
-  font-family: "Golos Text", sans-serif;
-}
-.leaflet-popup-content-wrapper,
-.leaflet-popup-tip {
-  background: #181511 !important;
-  color: var(--text-primary) !important;
-  border: 1px solid var(--rust) !important;
-  border-radius: 2px !important;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6) !important;
-}
-.leaflet-popup-content {
-  margin: 12px 14px !important;
-  color: var(--text-primary) !important;
-}
-.leaflet-popup-close-button {
-  color: var(--rust) !important;
-  font-size: 20px !important;
-  padding: 4px 8px !important;
-}
-.leaflet-control-zoom a {
-  background: #181511 !important;
-  color: var(--rust) !important;
-  border-color: var(--dark-border) !important;
-}
-.leaflet-control-zoom a:hover {
-  background: var(--rust-dim) !important;
-}
-.leaflet-control-attribution {
-  background: rgba(17, 16, 9, 0.7) !important;
-  color: var(--text-muted) !important;
-  font-size: 9px !important;
-}
-.leaflet-control-attribution a {
-  color: var(--rust) !important;
-}
-
 /* Scanline effect */
 .scanlines {
   position: relative;
